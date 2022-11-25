@@ -1,4 +1,4 @@
-/* footer */
+/* footer
 .zona3{
     margin-top: 50px;
     padding: 30px;
@@ -93,9 +93,4 @@
     
     }
     
-    @media(max-width: 0px){
     
-        .conteinter1{
-            width: 100%;
-        }
-        }

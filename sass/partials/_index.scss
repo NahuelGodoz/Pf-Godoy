@@ -1,18 +1,16 @@
 
 @use './variables';
 
-@mixin zona1 {
-    padding: 50px;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;}
-.zona1-i{
-    @include zona1;
-    height:  110vh;
-}
 
-// h1{
-//     align-self: start;
-//     width: variables.$color-m;
-// }
+
+    /* tablet o movil*/
+    
+    @media(min-width: 992px){
+    
+        .menor-tablet{
+           display: none;
+        }
+        
+        
+        }
+        
