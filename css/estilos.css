@@ -1,0 +1,17 @@
+.zona1 {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  align-self: start;
+  width: blue;
+}
+
+h2 {
+  color: #000;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,47 @@
+
+
+@use './partials/_index.scss';
+@use './partials/_conctato.scss';
+@use './partials/_menu.scss';
+@use './partials/_nosotros.scss';
+@use './partials/_provedor.scss';
+
+$color-m:  blue;
+
+// body{
+//     overflow-x: hidden;
+//     max-width: 100%;
+//  }
+
+// /* navbar */
+// header{
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     transition: 0.7s;
+//     padding: 5px 5px;
+//     z-index: 10;
+//     font-weight: bold
+// }
+// a{
+//     font-weight: 100;
+// }
+
+// header.abajo{
+//     background: #fff;
+// }
+
+// /* texto principal */
+// .text-p{
+//     display: flex;
+//     align-items:center;
+//     justify-content: center;
+    
+
+// }
+// .t-top-img{
+//     font-style: normal;
+//     text-decoration: none;
+//     color: rgb(255, 255, 255);
+// }
