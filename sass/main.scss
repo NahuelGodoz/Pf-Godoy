@@ -1,12 +1,13 @@
 
-
 @use './partials/_index.scss';
 @use './partials/_conctato.scss';
 @use './partials/_menu.scss';
 @use './partials/_nosotros.scss';
 @use './partials/_provedor.scss';
 
-
+ /* animatic */
+ @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+ .scale-up-center{animation:scale-up-center .6s cubic-bezier(.39,.575,.565,1.000) both}
 
 // body{
 //     overflow-x: hidden;
@@ -45,3 +46,19 @@
 //     text-decoration: none;
 //     color: rgb(255, 255, 255);
 // }
+
+
+// imagenes de fondo background
+$img-fonde: (
+    index: url(../img/prueba.jfif),
+    nosotros: url(../img/fond-cont.jpg),
+    conctato: url(../img/ct-imagen.jpg),
+    menu: url(../img/menu-fondo.jpg),
+    provedor: url(../img/menu-fondo.jpg),
+    );
+
+@each $url,$valor in $img-fonde {
+     .bi-#{$url} {
+        background: $valor
+     }
+ }
