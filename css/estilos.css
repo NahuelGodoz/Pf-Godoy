@@ -1,3 +1,5 @@
+
+
 .zona1 {
   position: relative;
   width: 100%;
@@ -5,9 +7,12 @@
   background-position: center center;
 }
 
+.zona1 {
+  height: 110vh;
+}
+
 h1 {
   align-self: start;
-  width: blue;
 }
 
 h2 {
